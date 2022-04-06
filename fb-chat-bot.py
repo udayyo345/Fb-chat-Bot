@@ -514,11 +514,8 @@ class ChatBot(Client):
             elif ("busy" in msg):
                 reply = "Nobody is busy. Only things are prioritized."
                 sendMsg()
-            elif("help" in msg):
+            elif(msg == "help"):
                 reply = "Sure! What should I do?"
-                sendMsg()
-            elif("clever" in msg):
-                reply = "Yes, i am clever. hope you will be clever soon."
                 sendMsg()
             elif("crazy" in msg):
                 reply = "Anything wrong about that."
@@ -569,7 +566,7 @@ class ChatBot(Client):
                 reply = "Hi"
                 sendMsg()
             elif (msg == "hi"):
-                reply = "Hello! How can I help you?"
+                reply = "Hello!"
                 sendMsg()
 
         except:
