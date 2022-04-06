@@ -526,14 +526,8 @@ class ChatBot(Client):
             elif ("are funny" in msg):
                 reply = "No. I am not. You are."
                 sendMsg()
-            elif ("marry me" in msg):
-                reply = "Yes, if you are nice and kind girl. But if you are boy RIP."
-                sendMsg()
             elif ("you from" in msg):
-                reply = "I am from Nepal. Currently living in Kathmandu"
-                sendMsg()
-            elif ("you sure" in msg):
-                reply = "Yes. I'm sure."
+                reply = "I am from Nepal. Currently living in Bharatpur"
                 sendMsg()
             elif ("great" in msg):
                 reply = "Thanks!"
@@ -571,7 +565,7 @@ class ChatBot(Client):
             elif ("hello" in msg):
                 reply = "Hi"
                 sendMsg()
-            elif ("hello" in msg or "hlo" in msg):
+            elif ("hello" in msg):
                 reply = "Hi"
                 sendMsg()
             elif (msg == "hi"):
@@ -667,11 +661,6 @@ class ChatBot(Client):
 
     def onNicknameChange(self, mid=None, author_id=None, new_nickname=None, thread_id=None, thread_type=ThreadType.USER, **kwargs):
         reply = f"You just changed the nickname to {new_nickname} But why? 😁🤔😶"
-        self.send(Message(text=reply), thread_id=thread_id,
-                  thread_type=thread_type)
-
-    def onReactionRemoved(self, mid=None, author_id=None, thread_id=None, thread_type=ThreadType.USER, **kwargs):
-        reply = "You just removed reaction from the message."
         self.send(Message(text=reply), thread_id=thread_id,
                   thread_type=thread_type)
 
