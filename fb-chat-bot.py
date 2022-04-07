@@ -678,7 +678,7 @@ class ChatBot(Client):
                   thread_type=thread_type)
 
 
-cookies = {"sb": "0SpLYg874pa8fnv-w8SnVXDF", "wd": "1920x961", "locale": "en_US", "datr": "wcpNYlyjPs2o98hBIvnwcLSE", "c_user": "100080221119658", "xs": "11%3ArEkt_RUDmB1H9w%3A2%3A1649265351%3A-1%3A-1", "fr": "0TS23szpp9wPFFux0.AWUkRVui6Z24EEm61dWn1DUpmKg.BiTblo.4-.AAA.0.0.BiTcrK.AWWPbd_JURM", "presence": "C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1649265425324%2C%22lm3%22%3A%22g.7382472035127394%22%2C%22v%22%3A1%7D"}
+cookies = {"sb": "0SpLYg874pa8fnv-w8SnVXDF", "wd": "1920x961", "locale": "en_US", "c_user": "100080221119658", "datr": "QJJOYuVn3UE7S_n4hO5Joqzs", "presence": "C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1649316418269%2C%22v%22%3A1%7D", "xs": "9%3AvXBXSZwsAUu5Rg%3A2%3A1649316413%3A-1%3A-1%3A%3AAcWHEYQ4JRTAwwOw1GPJhaOodP3LcTsWoe0hHAQ9pA", "fr": "0n4NEoX0YTQIoM1YR.AWUJjSKdPFjdl7bSYgyR9udaLUs.BiTpPD.zF.AAA.0.0.BiTpPD.AWVDa79QJmg"}
 
 client = ChatBot("",
                  "", session_cookies=cookies)
