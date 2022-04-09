@@ -678,7 +678,7 @@ class ChatBot(Client):
                   thread_type=thread_type)
 
 
-cookies = {"sb": "0SpLYg874pa8fnv-w8SnVXDF", "wd": "1920x961", "locale": "en_US", "c_user": "100080221119658", "datr": "90FRYioL09ZhAxbDpedX_0Vw", "xs": "16%3AZcfUYhgMYPcjJw%3A2%3A1649492468%3A-1%3A-1%3A%3AAcXgLP6iLK_f_T0ENi5HL0YBrrgQsi3eDEmq33tvDA", "fr": "0FSisfXiBwufYx9Ds.AWXNnlxFEeDSL6aqQ2fjbjt_6mA.BiUUNS.xT.AAA.0.0.BiUUNS.AWWT-addiTA", "presence": "C%7B%22t3%22%3A%5B%7B%22i%22%3A%22u.100071621048485%22%7D%5D%2C%22utc3%22%3A1649492874091%2C%22lm3%22%3A%22g.7382472035127394%22%2C%22v%22%3A1%7D"}
+cookies = {"sb": "s35OYoQygMoNij7UPqEL6Y8n", "datr": "s35OYq7f-HhnsrHU67hzpjYe", "wd": "1920x916", "c_user": "100080221119658", "xs": "34%3AEeoDBXu2egcNLQ%3A2%3A1649493325%3A-1%3A-1", "fr": "0AIi0NBMqItqQW0YD.AWWTwEhe45uScNcaLbykUN6M4fk.BiTn6z.lc.AAA.0.0.BiUUVQ.AWVzyY7nPaw", "presence": "C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1649493342264%2C%22v%22%3A1%7D"}
 
 client = ChatBot("dragononlinestorepvtltd@gmail.com",
                  "aL4iqp)u8,?(B=$", session_cookies=cookies)
