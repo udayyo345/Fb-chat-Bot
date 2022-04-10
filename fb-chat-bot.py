@@ -550,6 +550,18 @@ class ChatBot(Client):
             elif ("bye" in msg):
                 reply = "bye👋"
                 sendMsg()
+            elif ("what is ask itsnp" in msg or "what is ASKITSNP" in msg or "what is ASK ITSNP" in msg or "what is askitsnp" in msg):
+                reply = "ASK ITSNP is a social question and answer engine that will assist you in forming a community and connecting with others. Talk about programming, your career, your mental health, and your personal finances. ❤️‍🔥 Post a query and receive responses ✅ Here is a link Have a Look https://askitsnp.com/"
+                sendMsg()
+            elif ("what is ask itsnp?" in msg or "what is ASKITSNP?" in msg or "what is ASK ITSNP?" in msg or "what is askitsnp?" in msg):
+                reply = "ASK ITSNP is a social question and answer engine that will assist you in forming a community and connecting with others. Talk about programming, your career, your mental health, and your personal finances. ❤️‍🔥 Post a query and receive responses ✅ Here is a link Have a Look https://askitsnp.com/"
+                sendMsg()
+            elif ("something about ask itsnp" in msg or "something about ASKITSNP" in msg or "something about ASK ITSNP" in msg or "something about askitsnp" in msg):
+                reply = "ASK ITSNP is a social question and answer engine that will assist you in forming a community and connecting with others. Talk about programming, your career, your mental health, and your personal finances. ❤️‍🔥 Post a query and receive responses ✅ Here is a link Have a Look https://askitsnp.com/"
+                sendMsg()
+            elif ("what is itsnp?" in msg or "what is ITSNP?" in msg or "what is ITSNP" in msg or "what is itsnp" in msg):
+                reply = "IT Students of Nepal (ITSNP ORG) is an organisation working for the welfare of tech enthusiasts in Nepal.Established on 30th October 2020. ITSNP have been Conducting Free workshops over the year to fulfill the gap between IT students and The Industry Need by providing them the practical knowledge through ITSNP workshop on various topics in the realm of Technology. Hera is a link Have a Look https://itsnp.org/"
+                sendMsg()
             elif ("good morning" in msg):
                 reply = "Good Morning🌅🌺"
                 sendMsg()
