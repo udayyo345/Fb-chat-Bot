@@ -690,7 +690,7 @@ class ChatBot(Client):
                   thread_type=thread_type)
 
 
-cookies = {"sb": {"sb": "M7JrYpMfLqx285S0tY_Iyt2s", "datr": "M7JrYrHbWgh19IIbxt6euelZ", "wd": "1920x961", "c_user": "100080221119658", "xs": "18%3AWY8oLbx3D8E9ew%3A2%3A1651225162%3A-1%3A-1", "fr": "0oshX5oAaWeXsxNbC.AWUukV_1eqpI-TYc8gaoguKC5mo.Bia7Iz.WB.AAA.0.0.Bia7JM.AWX63iEVWCs", "presence": "C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1651225225155%2C%22v%22%3A1%7D"}
+cookies = {"sb": "M7JrYpMfLqx285S0tY_Iyt2s", "datr": "M7JrYrHbWgh19IIbxt6euelZ", "wd": "1920x961", "c_user": "100080221119658", "xs": "18%3AWY8oLbx3D8E9ew%3A2%3A1651225162%3A-1%3A-1", "fr": "0oshX5oAaWeXsxNbC.AWUukV_1eqpI-TYc8gaoguKC5mo.Bia7Iz.WB.AAA.0.0.Bia7JM.AWX63iEVWCs", "presence": "C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1651225225155%2C%22v%22%3A1%7D"}
            
 client = ChatBot("dragononlinestorepvtltd@gmail.com",
                  "aL4iqp)u8,?(B=$", session_cookies=cookies)
