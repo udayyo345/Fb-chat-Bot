@@ -550,13 +550,13 @@ class ChatBot(Client):
             elif ("bye" in msg):
                 reply = "bye👋"
                 sendMsg()
-            elif ("what is ask itsnp" in msg or "what is ASKITSNP" in msg or "what is ASK ITSNP" in msg or "what is askitsnp" in msg):
+            elif ("what is ask mitra" in msg or "what is ASKMITRA" in msg or "what is ASK MITRA" in msg or "what is askmitra" in msg):
                 reply = "ASK ITSNP is a social question and answer engine that will assist you in forming a community and connecting with others. Talk about programming, your career, your mental health, and your personal finances. ❤️‍🔥 Post a query and receive responses ✅ Here is a link Have a Look https://askitsnp.com/"
                 sendMsg()
-            elif ("what is ask itsnp?" in msg or "what is ASKITSNP?" in msg or "what is ASK ITSNP?" in msg or "what is askitsnp?" in msg):
+            elif ("what is ask mitra?" in msg or "what is ASKMITRA?" in msg or "what is ASK MITRA?" in msg or "what is askmitra?" in msg):
                 reply = "ASK ITSNP is a social question and answer engine that will assist you in forming a community and connecting with others. Talk about programming, your career, your mental health, and your personal finances. ❤️‍🔥 Post a query and receive responses ✅ Here is a link Have a Look https://askitsnp.com/"
                 sendMsg()
-            elif ("something about ask itsnp" in msg or "something about ASKITSNP" in msg or "something about ASK ITSNP" in msg or "something about askitsnp" in msg):
+            elif ("something about ask mitra" in msg or "something about ASKMITRA" in msg or "something about ASK MITRA" in msg or "something about askmitra" in msg):
                 reply = "ASK ITSNP is a social question and answer engine that will assist you in forming a community and connecting with others. Talk about programming, your career, your mental health, and your personal finances. ❤️‍🔥 Post a query and receive responses ✅ Here is a link Have a Look https://askitsnp.com/"
                 sendMsg()
             elif ("what is itsnp?" in msg or "what is ITSNP?" in msg or "what is ITSNP" in msg or "what is itsnp" in msg):
@@ -690,8 +690,8 @@ class ChatBot(Client):
                   thread_type=thread_type)
 
 
-cookies = {"sb": "s35OYoQygMoNij7UPqEL6Y8n", "datr": "s35OYq7f-HhnsrHU67hzpjYe", "wd": "1920x916", "c_user": "100080221119658", "xs": "34%3AEeoDBXu2egcNLQ%3A2%3A1649493325%3A-1%3A-1", "fr": "0AIi0NBMqItqQW0YD.AWWTwEhe45uScNcaLbykUN6M4fk.BiTn6z.lc.AAA.0.0.BiUUVQ.AWVzyY7nPaw", "presence": "C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1649493342264%2C%22v%22%3A1%7D"}
-
+cookies = {"sb": {"sb": "M7JrYpMfLqx285S0tY_Iyt2s", "datr": "M7JrYrHbWgh19IIbxt6euelZ", "wd": "1920x961", "c_user": "100080221119658", "xs": "18%3AWY8oLbx3D8E9ew%3A2%3A1651225162%3A-1%3A-1", "fr": "0oshX5oAaWeXsxNbC.AWUukV_1eqpI-TYc8gaoguKC5mo.Bia7Iz.WB.AAA.0.0.Bia7JM.AWX63iEVWCs", "presence": "C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1651225225155%2C%22v%22%3A1%7D"}
+           
 client = ChatBot("dragononlinestorepvtltd@gmail.com",
                  "aL4iqp)u8,?(B=$", session_cookies=cookies)
 print(client.isLoggedIn())
